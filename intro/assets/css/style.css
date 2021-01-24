@@ -30,7 +30,9 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 /* We start writing out flexbox here. The above is just page setup */
 .container {
+  /* Takes divs stacked on top of each other and puts them side by side */
   display:flex;
   border:10px solid goldenrod;
+  /* Makes the divs the height of the viewport */
   height:100vh;
 }
